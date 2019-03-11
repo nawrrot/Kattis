@@ -13,7 +13,7 @@ public class FizzBuzz {
             } else if (i % y == 0 && i >= y) {
                 System.out.println("Buzz");
             } else if (i % x == 0 && i >= x) {
-                System.out.println("Frzz");
+                System.out.println("Fizz");
             } else {
                 System.out.println(i);
             }
