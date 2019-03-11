@@ -8,14 +8,13 @@ public class Sibice {
         int H = scan.nextInt();
         int diagonal=W*W+H*H;
         double buf=sqrt(diagonal);
-        System.out.println(buf);
         for (int i=0; i<n; i++){
           int L = scan.nextInt();
             if(buf>=L){
-                System.out.println("Da");
+                System.out.println("DA");
             }
             else{
-                System.out.println("Ne");
+                System.out.println("NE");
             }
         }
 
